@@ -1,0 +1,38 @@
+
+// Box sizing
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+// Remove margins and paddings
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+// Remove list styles
+ul,
+ol {
+  list-style: none;
+}
+
+// Remove default hyperlink styles
+a {
+  text-decoration: none;
+}

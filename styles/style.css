@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /* Primary */
+/* Netural */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Font Family */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: hsl(243, 100%, 93%);
+  font-weight: 400;
+}
+
+h3 strong {
+  font-weight: 700;
+  color: white;
+}
+
+.storage-container h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+span h1 {
+  font-size: 2rem;
+  white-space: nowrap;
+  color: black;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+span p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  white-space: nowrap;
+  color: black;
+}
+
+.slider-text span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* Mobile First */
+body {
+  background-image: url(../images/bg-mobile.png);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100vw;
+  margin-right: 1.5rem;
+}
+
+.fylo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: hsl(228, 56%, 26%);
+  padding: 2rem;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px 40% 10px 10px;
+  margin-bottom: 2rem;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.fylo-logo {
+  width: 100%;
+  height: auto;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.document-icon-container {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.document-icon {
+  width: 100%;
+  height: auto;
+}
+
+.folder-icon-container {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.folder-icon {
+  width: 100%;
+  height: auto;
+}
+
+.upload-icon-container {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.upload-icon {
+  width: 100%;
+  height: auto;
+}
+
+.storage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  background: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  max-width: 400px;
+  text-align: center;
+  min-height: 200px;
+}
+
+.storage-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4.5rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  max-width: 250px;
+  border-radius: 15px;
+}
+
+.storage-left span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Dekstop Styles */
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    margin-right: 1.5rem;
+  }
+  .fylo-container {
+    margin-right: 1rem;
+  }
+  .storage-container {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .storage-container {
+    position: relative; /* Add this line */
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  .storage-left {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    top: -5rem;
+    right: 5rem;
+  }
+  .storage-left::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: -25px;
+    right: -50px;
+    border-bottom: 80px solid white; 
+    border-right: 80px solid transparent;
+    transform: rotate(45deg);
+
+  }
+}
+.slider-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 2rem;
+  width: 100%;
+  max-width: 300px;
+  min-height: 20px;
+  z-index: 0;
+}
+
+.slider-progress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  min-height: 10px;
+  max-height: 10px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  z-index: 1;
+  padding-bottom: 1.3rem;
+}
+
+.slider-circle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: 15.5rem;
+  margin-top: 1.2rem;
+  z-index: 2;
+}
+
+.slider-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

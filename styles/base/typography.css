@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /* Primary */
+/* Netural */
+/* Font Family */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: hsl(243, 100%, 93%);
+  font-weight: 400;
+}
+
+h3 strong {
+  font-weight: 700;
+  color: white;
+}
+
+.storage-container h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+span h1 {
+  font-size: 2rem;
+  white-space: nowrap;
+  color: black;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+span p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  white-space: nowrap;
+  color: black;
+}
+
+.slider-text span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  white-space: nowrap;
+  width: 100%;
+}/*# sourceMappingURL=typography.css.map */
