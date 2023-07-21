@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Here](solution-url)
-- Live Site URL: [Here](live-site-url)
+- Solution URL: [https://github.com/botirk38/fylo-data-storage-component-master](solution-url)
+- Live Site URL: [https://botirk38.github.io/fylo-data-storage-component-master/](live-site-url)
 
 ## My Process
 
